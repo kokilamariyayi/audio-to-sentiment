@@ -1,13 +1,14 @@
 [build-system]
 requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
+
 [project]
-name = "assembly_ai_plus"
+name = "audio-to-sentiment"
 version = "0.0.1"
 authors = [
-  { name="Afiz", email="itsafiz@gmail.com" },
+  { name="Kokila M", email="kokilakoki3376@gmail.com" },
 ]
-description = "AssemblyAI Python SDK."
+description = "🎵 Audio to Sentiment Transcriber using AssemblyAI."
 readme = "README.md"
 license = { file="LICENSE" }
 requires-python = ">=3.7"
@@ -23,5 +24,5 @@ dependencies = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/afizs/assembly_ai"
-"Bug Tracker" = "https://github.com/afizs/assembly_ai/issues"
+"Homepage" = "https://github.com/kokilamariyayi/audio-to-sentiment"
+"Bug Tracker" = "https://github.com/kokilamariyayi/audio-to-sentiment/issues"
