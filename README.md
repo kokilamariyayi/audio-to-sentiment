@@ -5,10 +5,22 @@
 
 ---
 
+## 📸 Description
+This project provide a simple yet powerful interface to interact with **AssemblyAI**. It allows users to submit audio URLs for transcription and retrieve results that include not just the text, but also deep sentiment analysis, entity detection, and more. It's designed for developers who want to integrate speech-to-text capabilities into their applications with minimal setup.
+
+---
+
 ## ✨ Key Features
 
 - **🎙️ High Precision Transcription**: Powered by **AssemblyAI**'s state-of-the-art speech-to-text engine.
 - **🧠 Sentiment Analysis**: Gain deep insights into the emotional tone of your audio content.
+- **🌐 Multilingual Support**: Transcribe audio in multiple languages including:
+  - 🇺🇸 English
+  - 🇮🇳 Tamil
+  - 🇮🇳 Hindi
+  - 🇫🇷 French
+  - 🇪🇸 Spanish
+  - _(And many more supported by AssemblyAI)_
 - **🔍 Advanced Detection**:
   - **Auto Chapters**: Summarize long audio into manageable sections.
   - **Entity Detection**: Automatically identify people, places, and things.
