@@ -1,12 +1,31 @@
 # 🎵 Audio to Sentiment Transcriber
 
 > **Transform audio into transcribed text and sentiment insights instantly!**  
-> A powerful Python SDK that leverages AssemblyAI to transcribe audio files and analyze sentiment with high precision.
+> A powerful project that leverages AssemblyAI to transcribe audio files and analyze sentiment with high precision.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![AssemblyAI](https://img.shields.io/badge/AssemblyAI-000000?style=for-the-badge&logo=assemblyai&logoColor=white)
+![NLP](https://img.shields.io/badge/NLP-FF6F00?style=for-the-badge&logo=google-cloud&logoColor=white)
+![LLM](https://img.shields.io/badge/LLM-4B0082?style=for-the-badge&logo=openai&logoColor=white)
 
 ---
 
 ## 📸 Description
-This project provide a simple yet powerful interface to interact with **AssemblyAI**. It allows users to submit audio URLs for transcription and retrieve results that include not just the text, but also deep sentiment analysis, entity detection, and more. It's designed for developers who want to integrate speech-to-text capabilities into their applications with minimal setup.
+This project provides a simple yet powerful interface to interact with **AssemblyAI**. It allows users to submit audio URLs for transcription and retrieve results that include not just the text, but also deep sentiment analysis, entity detection, and more. It's designed for developers who want to integrate speech-to-text and NLP capabilities into their applications with minimal setup.
+
+---
+
+## 🛠️ Tech Stack & Topics
+
+- **Programming Language**: `Python` 🐍
+- **AI/ML Engine**: `AssemblyAI` (Speech-to-Text & NLP)
+- **Key Topics**: 
+  - 🤖 **LLM & Conversational AI**
+  - 📚 **RAG (Retrieval-Augmented Generation) Component**
+  - 🗣️ **Multilingual Speech Recognition (ASR)**
+  - 🧠 **Natural Language Processing (NLP)**
+  - 🎭 **Sentiment Analysis**
+- **Libraries**: `requests`, `validators`, `typing_extensions`
 
 ---
 
@@ -15,25 +34,11 @@ This project provide a simple yet powerful interface to interact with **Assembly
 - **🎙️ High Precision Transcription**: Powered by **AssemblyAI**'s state-of-the-art speech-to-text engine.
 - **🧠 Sentiment Analysis**: Gain deep insights into the emotional tone of your audio content.
 - **🌐 Multilingual Support**: Transcribe audio in multiple languages including:
-  - 🇺🇸 English
-  - 🇮🇳 Tamil
-  - 🇮🇳 Hindi
-  - 🇫🇷 French
-  - 🇪🇸 Spanish
-  - _(And many more supported by AssemblyAI)_
+  - 🇺🇸 English, 🇮🇳 Tamil, 🇮🇳 Hindi, 🇫🇷 French, 🇪🇸 Spanish, and more!
 - **🔍 Advanced Detection**:
   - **Auto Chapters**: Summarize long audio into manageable sections.
   - **Entity Detection**: Automatically identify people, places, and things.
   - **Auto Highlights**: Extract the most important keywords and phrases.
-- **⚡ Simple Integration**: Easy-to-use Python functions for seamless workflow integration.
-
----
-
-## 🛠️ Tech Stack
-
-- **Core**: `requests`, `validators`
-- **AI Engine**: `AssemblyAI`
-- **Logic**: `Python`
 
 ---
 
